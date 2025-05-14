@@ -1,6 +1,12 @@
 [book]
-authors = ["Your Name"]
+authors = ["Sergio Rico"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Writing Tips"
+title = "Writing Tips for Software Engineering Students"
+description = "A collection of direct, practical, and actionable writing tips for software engineering students."
+
+[output.html]
+git-repository-url = "https://github.com/sergiorico/Writing-Tips"
+edit-url-template = "https://github.com/sergiorico/Writing-Tips/edit/main/{path}"
+site-url = "https://sergiorico.github.io/Writing-Tips/"
