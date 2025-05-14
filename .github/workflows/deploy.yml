@@ -22,6 +22,8 @@ jobs:
           mkdir mdbook
           curl -sSL $url | tar -xz --directory=./mdbook
           echo "$(pwd)/mdbook" >> $GITHUB_PATH
+      - name: Prepare Book README
+        run: cp README.md src/README.md
       - name: Build Book
         run: mdbook build
       - name: Setup Pages
